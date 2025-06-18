@@ -18,11 +18,11 @@
 
 **定义多模态融合模型：**
 
-  使用 KGMultiModalTransformer 接收 EHR、图像特征、知识图谱嵌入、Demographic将多个模态数据融合。
+  使用 KGMultiModalTransformer 接收 EHR、图像特征、知识图谱嵌入、Demographic 将多个模态数据融合。
 
 **K** **引导：**
 
-   通过RotatEextract和get_embeddings函数提取每个样本对应的知识图谱嵌入。将知识图谱嵌入与临床和图像数据特征拼接，输入到多模态Transformer模型中。模型训练和预测时，会被引导去利用来自知识图谱的结构化语义信息，从而提升预测的表现和鲁棒性。
+   通过 RotatEextract 和 get_embeddings 函数提取每个样本对应的知识图谱嵌入。将知识图谱嵌入与临床和图像数据特征拼接，输入到多模态 Transformer 模型中。模型训练和预测时，会被引导去利用来自知识图谱的结构化语义信息，从而提升预测的表现和鲁棒性。
 
 **TransE**：
 
