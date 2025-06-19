@@ -62,6 +62,10 @@ codeADNI/code：ADNI 模型
 
 codeNACC/code：NACC 模型
 
+## 数据集：
+
+kaggle：https://www.kaggle.com/datasets/largerice16pro/medicine-knowledge-guided
+
 ## 联系方式：
 
 QQ：1120571672
